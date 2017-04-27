@@ -9,6 +9,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v11SP6](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP6) | Instructions are described in the ReadMe.pdf
 [v11SP5](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP5) | Instructions are described in the ReadMe.pdf
 [v11SP4](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP4) | Instructions are described in the ReadMe.pdf
 
@@ -16,6 +17,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v11SP6](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP6) | 11.0 SP6
 [v11SP5](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP5) | 11.0 SP5
 [v11SP4](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP4) | 11.0 SP4
 
