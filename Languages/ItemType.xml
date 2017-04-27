@@ -1,0 +1,10 @@
+<export>
+  <Item keyed_name="z_canUnlockUser" config_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="拡張アンロック設定" />
+    <property __name="label_plural" ja="拡張アンロック" />
+  </Item>
+  <Item keyed_name="z_canUnlockUser_Identity" config_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="label_plural" ja="" />
+  </Item>
+</export>

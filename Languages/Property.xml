@@ -1,0 +1,206 @@
+<export>
+  <Item keyed_name="major_rev" name="major_rev" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="state" name="state" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="classification" name="classification" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="keyed_name" name="keyed_name" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="is_current" name="is_current" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="generation" name="generation" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="not_lockable" name="not_lockable" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="permission_id" name="permission_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="created_by_id" name="created_by_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="state" name="state" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="locked_by_id" name="locked_by_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="minor_rev" name="minor_rev" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="generation" name="generation" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="sort_order" name="sort_order" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="new_version" name="new_version" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="id" name="id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="minor_rev" name="minor_rev" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="behavior" name="behavior" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="major_rev" name="major_rev" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="related_id" name="related_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="team_id" name="team_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="keyed_name" name="keyed_name" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="config_id" name="config_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="current_state" name="current_state" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="modified_on" name="modified_on" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="current_state" name="current_state" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="id" name="id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="owned_by_id" name="owned_by_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="source_id" name="source_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="modified_by_id" name="modified_by_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="z_item" name="z_item" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="対象アイテム" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="permission_id" name="permission_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="modified_by_id" name="modified_by_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="created_on" name="created_on" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="is_current" name="is_current" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="is_released" name="is_released" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="team_id" name="team_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="modified_on" name="modified_on" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="is_released" name="is_released" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="owned_by_id" name="owned_by_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="classification" name="classification" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="new_version" name="new_version" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="managed_by_id" name="managed_by_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="created_by_id" name="created_by_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="not_lockable" name="not_lockable" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="created_on" name="created_on" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="managed_by_id" name="managed_by_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="config_id" name="config_id" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="css" name="css" source_id="9101D78F89FC46AE8FF1399E43CFF822">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="locked_by_id" name="locked_by_id" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+  <Item keyed_name="css" name="css" source_id="22337326E285435AB71FCD7C665F0177">
+    <property __name="label" ja="" />
+    <property __name="default_value" ja="" />
+  </Item>
+</export>

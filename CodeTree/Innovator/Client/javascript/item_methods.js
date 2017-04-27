@@ -1154,6 +1154,7 @@ Aras.prototype.unlockItem = function (itemID, itemTypeName) {
 					win = window;
 				}
 
+				// Add Neosystem Start
 				if ((getCanUnlockItem(itemTypeName)) && (this.getUserType() !== "admin")) {
 					var _method = new Item("Method");
 					_method.setProperty("item_id", itemID);
@@ -1161,6 +1162,7 @@ Aras.prototype.unlockItem = function (itemID, itemTypeName) {
 					var ret = _method.apply("z_unlockItem");
 					return null;
 				} else {
+				// Add Neosystem End
 					var bodyStr = "<Item type=\"" + itemTypeName + "\" id=\"" + itemID + "\" action=\"unlock\" />";
 					var statusId = showStatusMessage("status", getResource("", "item_methods.unlocking_item"), system_progressbar1_gif);
 					var res = soapSend("ApplyItem", bodyStr);

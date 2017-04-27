@@ -101,6 +101,7 @@ function ArasCommonProperties() {
 	this.clientRevision = "";
 	this.IsSSVCLicenseOk = false;
 	this.userReportServiceBaseUrl = "";
+	this.cmfCopyBuffer = null;
 }
 
 /*
@@ -371,6 +372,10 @@ Aras.prototype.getUserType = function Aras_getUserType() {
 	return this.commonProperties.user_type;
 }
 
+// Edit Neosystem Start
+//Aras.prototype.isAdminUser = function Aras_isAdminUser() {
+//	return this.getUserType() === "admin";
+//}
 Aras.prototype.isAdminUser = function Aras_isAdminUser(itemTypeName) {
 	if (this.getUserType() === "admin") {
 		return true;
@@ -382,6 +387,7 @@ Aras.prototype.isAdminUser = function Aras_isAdminUser(itemTypeName) {
 
 	return this.getCanUnlockItem(itemTypeName);
 }
+// Edit Neosystem End
 
 Aras.prototype.setUserType = function Aras_setUserType(usertype) {
 	this.commonProperties.user_type = usertype;
@@ -1367,7 +1373,13 @@ Aras.prototype.evalMethod = function Aras_evalMethod(methodNameOrNd, XMLinput, i
 	}
 	else {
 		methodName = methodNameOrNd;
-		methodNd = this.MetadataCache.GetClientMethod(methodName, "name").results.selectSingleNode(this.XPathResult("/Item"));
+		var propNames = ["name", "id"];
+		for (var i in propNames) {
+			methodNd = (this.MetadataCache.GetClientMethod(methodName, propNames[i])).results.selectSingleNode(this.XPathResult("/Item"));
+			if (methodNd) {
+				break;
+			}
+		}
 	}
 
 	if (!methodNd) {
@@ -5492,6 +5504,10 @@ Aras.prototype.getPreferenceItem = function Aras_getPreferenceItem(prefITName, s
 			findCriteriaPropNm = "rel_type_id";
 			break;
 		}
+		case "cmf_ContentTypeGridLayout": {
+			findCriteriaPropNm = "tabular_view_id";
+			break;
+		}
 	}
 
 	function getPrefQueryXml(prefCondition) {
@@ -7052,6 +7068,7 @@ Aras.prototype.getMostTopWindowWithAras = function Aras_getMostTopWindowWithAras
 
 Aras.prototype.SsrEditorWindowId = "BB91CEC07FF24BE5945F2E5412752E8B";
 
+// Add Neosystem Start
 Aras.prototype.getCanUnlockItem = function Aras_getCanUnlockItem(itemTypeName) {	
 	var item = this.getItemByName("ItemType", itemTypeName, 0);
 	var canUnlockUser = new Item("z_canUnlockUser", "get");
@@ -7083,3 +7100,4 @@ Aras.prototype.getCanUnlockItem = function Aras_getCanUnlockItem(itemTypeName) {
 	}
 	return false;
 }
+// Add Neosystem End

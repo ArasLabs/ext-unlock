@@ -82,12 +82,15 @@ ItemGrid.prototype.setMenuState = function ItemGrid_setMenuState(rowId, col) {
 			var purgeFlg = (isTemp || (locked_by == ""));
 			var lockFlg = aras.uiItemCanBeLockedByUser(itemNd, isRelationshipIT, use_src_accessIT);
 			
+			// Add Neosystem Start
+			//var unlockFlg = (locked_by == userID || (!isTemp && locked_by != "" && aras.isAdminUser()));
 			var unlockFlg = false;
 			if (aras.isAdminUser(itemTypeName)) {
 				unlockFlg = (!isTemp && locked_by != "");
 			} else {
 				unlockFlg = (locked_by == userID);
 			}
+			// Add Neosystem End
 			
 			var copyFlg = (itemIdsCount == 1 && !isTemp && can_addFlg);
 			var undoFlg = (!isTemp && isDirty);
@@ -129,11 +132,14 @@ ItemGrid.prototype.setMenuState = function ItemGrid_setMenuState(rowId, col) {
 					lockFlg = lockFlg && aras.uiItemCanBeLockedByUser(tmpItemNd, isRelationshipIT, use_src_accessIT);
 					undoFlg = undoFlg && (!isTemp && isDirty);
 
+					// Add Neosystem Start
+					//unlockFlg = unlockFlg && (locked_by == userID || (!isTemp && locked_by != "" && aras.isAdminUser()));
 					if (aras.isAdminUser(itemTypeName)) {
 						unlockFlg = unlockFlg && (!isTemp && locked_by != "");
 					} else {
 						unlockFlg = unlockFlg && (locked_by == userID);
 					}
+					// Add Neosystem End
 
 					add2desktopFlg = add2desktopFlg & !isTemp;
 					pasteFlg = pasteFlg && !aras.clipboard.isEmpty() && (isTemp || (locked_by == userID));

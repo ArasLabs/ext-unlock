@@ -1,0 +1,5 @@
+<export>
+  <Item keyed_name="z_canUnlockUser_Identity" config_id="AFBD1DD2B3DA405A95620086F315AC8E">
+    <property __name="label" ja="対象アイデンティティ" />
+  </Item>
+</export>

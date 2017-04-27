@@ -1,0 +1,14 @@
+<export>
+  <Item keyed_name="item_info" config_id="A597BAA3B76448B4B7EB78064BAD599B">
+    <property __name="label" ja="" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="item_info" config_id="BC897825E98C4355984AAAC61A41E16C">
+    <property __name="label" ja="" />
+    <property __name="legend" ja="" />
+  </Item>
+  <Item keyed_name="z_item" config_id="F70F3B1368274D6AB93E2669BF066BB2">
+    <property __name="label" ja="対象アイテム" />
+    <property __name="legend" ja="" />
+  </Item>
+</export>

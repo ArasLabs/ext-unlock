@@ -9,12 +9,14 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v11SP5](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP5) | Instructions are described in the ReadMe.pdf
 [v11SP4](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP4) | Instructions are described in the ReadMe.pdf
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
+[v11SP5](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP5) | 11.0 SP5
 [v11SP4](https://github.com/ArasLabs/ext-unlock/releases/tag/v11SP4) | 11.0 SP4
 
 ## Installation
@@ -41,6 +43,9 @@ Project | Aras
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
 8. Click **Import** in the top left corner.
 9. Close the Aras Package Import tool.
+
+#### _Optional:_
+Japanese language settings may be applied using the contents of the Language directory and the LanguagePackManagementUtility.
 
 ## Usage
 
